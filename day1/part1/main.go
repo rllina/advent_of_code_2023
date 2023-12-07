@@ -9,6 +9,8 @@ import (
 
 var input string
 
+// look into the flag library
+
 func getNumbersFromString(input string) int {
 	arr := strings.Split(input, "")
 	var numbers []string

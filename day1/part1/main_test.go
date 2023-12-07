@@ -14,8 +14,6 @@ func TestMainSuite(t *testing.T) {
 	suite.Run(t, new(mainSuite))
 }
 
-func (suite *mainSuite) SetupTest() {}
-
 func (suite *mainSuite) Test_gets_the_numbers_from_a_string() {
 	numbers := getNumbersFromString("1abc2")
 
